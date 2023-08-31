@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icono Cabernet Sauvignon</title>
+    </head>
+	<body>
+    <section class="Icono Cabernet Sauvignon">
+	<h1>Icono Cabernet Sauvignon</h1>
+        <h3>Descrição</h3>
+        <p>Vinho tinto rubi com nuances granada profundas e intensas, atraente e sedutor.
+		O equilíbrio perfeito da variedade pode ser apreciado no nariz, por um lado,
+		encontramos notas profundas de frutas vermelhas e pretas, amalgamadas com notas picantes de alcaçuz
+		e ervas frescas fundidas elegantemente com notas de groselha e baunilha.
+		Fazem parte da sua harmoniosa composição ainda notas de tabaco, café e fumo,
+		indícios do seu envelhecimento em barricas de carvalho francês.
+		É um vinho notoriamente complexo, muito carnudo, com muito boa estrutura,
+		taninos sedosos e doces, expressa-se com muito bom equilíbrio ácido e suculento,
+		com grande potencial de envelhecimento, pelo que pensamos que atingirá
+		o seu potencial máximo em próximos 10 a 15 anos.</p>
+		
+		
+		
+		<p>VINHAS	VINHEDO HISTÓRICO “MEGATHERIUM” DA HACIENDA DON JULIO </p>
+		<p>ALTITUDE	1890m</p>
+		<p>ANTIGO DAS VINHAS	53 ANOS</p>
+		<p>VARIEDADE 100% CABERNET SAUVIGNON</p>
+		<p>VITICULTOR	HELMUT KOHLBERG</p>
+		<p>PRODUÇÃO DE GARRAFA	2100</p>
+		<p/>ENÓLOGOS	ERICH KOHLBERG G, HERBERT KOHLBERG K.</p>
+		<p>IDADE POTENCIAL	ENTRE 10  a 15 ANOS</p>
+		<p>TEMPERATURA DE SERVIR RECOMENDADA 16</p>
+		            
+    </section>
+    </body>
+</html>
