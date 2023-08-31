@@ -1,29 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
-body,html{
+body,
+html {
     height: 100%;
     margin: 0;
 }
 
 
-.bg{
+.bg {
     background-image: url(../img/Logo\ novo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:  center;
+    background-position: center;
     background-attachment: fixed;
-    z-index: -1; 
+    z-index: -1;
 }
-.content{
+
+.content {
     padding-top: 100vh;
 }
 
 
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,91 +34,94 @@ header{
     z-index: 1000;
 }
 
-.nav-bar{
-    
+.nav-bar {
+
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-    
+
 }
 
-.menu-logo{
-    
+.menu-logo {
+
     display: flex;
     align-items: center;
 }
 
-.menu-logo h1{
+.menu-logo h1 {
     color: #fff;
 
 }
 
-.nav-list{
-    
+.nav-list {
+
     display: flex;
     align-items: center;
 }
 
-.nav-list ul{
+.nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
 }
-.nav-item{
+
+.nav-item {
     margin: 0 15px;
 
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     font-size: 1.15rem;
     color: #fff;
-    font-weight: 400;  
+    font-weight: 400;
 }
 
-.login-button button{
+.login-button button {
     border: none;
     background-color: #0187a7;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
-.login-button button a{
+.login-button button a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
 }
 
-.Imagem-logo{
-     display: flex;
-     position: absolute;
-     height: 90px;
-     align-items: center;
+.Imagem-logo {
+    display: flex;
+    position: absolute;
+    height: 90px;
+    align-items: center;
 }
 
-h1{
-    display: 	flex;
+h1 {
+    display: flex;
     justify-content: center;
     text-align: center;
     color: white;
     background: #b71a37;
     font-size: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
 
-p{
+p {
     font-size: 16px;
     margin: 30px 8%;
-    color: rgb(60,60,60);
+    color: rgb(60, 60, 60);
 }
 
-.imagem-com-preco{
+.imagem-com-preco {
     overflow: hidden;
     display: flex;
     position: relative;
 }
-.preco{
+
+.preco {
     overflow: hidden;
     text-decoration: underline;
     font-size: 30px;
@@ -129,82 +134,92 @@ p{
 }
 
 
-.banner-promocional{
+.banner-promocional {
     overflow: hidden;
     width: 1367px;
 }
 
-.banner-promocional:hover{
+.banner-promocional:hover {
     overflow: hidden;
     width: 1350px;
     border: 1px solid white;
     box-shadow: 5px 5px 5px black;
 }
 
-.img-propaganda:hover{
+.img-propaganda:hover {
     overflow: hidden;
     width: 1350px;
     border: 1px solid white;
     box-shadow: 5px 5px 5px black;
 }
-#inicio{
+
+#inicio {
     display: flex;
     justify-content: center;
 
 }
 
-.caixa{
+.caixa {
     color: white;
-    justify-content: center;   
+    justify-content: center;
 }
 
-h2{
+h2 {
     color: white;
 }
 
-.fundo{
+.fundo {
     background: #3a010b;
 }
 
-.vinho1{
+.vinho1 {
     display: flex;
     justify-content: center;
-    height: 261px;    /*Largura*/
-    max-width: 77px; /*tamanho maximo dela*/
+    height: 261px;
+    /*Largura*/
+    max-width: 77px;
+    /*tamanho maximo dela*/
     min-width: 32px;
 }
-.vinho2{
-    
+
+.vinho2 {
+
     justify-content: center;
-    height: 261px;    /*Largura*/
-    max-width: 77px; /*tamanho maximo dela*/
+    height: 261px;
+    /*Largura*/
+    max-width: 77px;
+    /*tamanho maximo dela*/
     min-width: 32px;
 }
-.vinho3{
-    
-    height: 261px;    /*Largura*/
-    max-width: 77px; /*tamanho maximo dela*/
+
+.vinho3 {
+
+    height: 261px;
+    /*Largura*/
+    max-width: 77px;
+    /*tamanho maximo dela*/
     min-width: 32px;
 }
 
 
-.caixa:hover{
+.caixa:hover {
     color: #ffffff;
     border: 1px solid white;
     box-shadow: 10px 10px 10px black;
 }
 
 
-p{
-    
+p {
+
     justify-content: center;
-    
+
 }
-h2{
+
+h2 {
     justify-content: center;
 }
 
-.comprar-button{
+.comprar-button {
     width: 100px;
     background-color: #b52f28;
     text-decoration: none;
@@ -215,15 +230,17 @@ h2{
 
 
 
-#destaque{
+#destaque {
     background: rgb(90, 97, 80);
     color: white;
 }
-.img-propaganda{
+
+.img-propaganda {
     display: flex;
     position: relative;
 }
-dl{
+
+dl {
     font-size: 30px;
     width: 400px;
     position: absolute;
@@ -232,31 +249,64 @@ dl{
     color: rgb(249, 255, 248);
     padding: 5px;
 }
-.fundo-sobre{
+
+.fundo-sobre {
     background-color: rgb(40, 19, 1);
 }
-.Empresa{
+
+.Empresa {
     display: flex;
     justify-content: center;
     color: white;
     font-size: 20px;
 }
-.Contato{
+
+.Contato {
     display: flex;
     justify-content: center;
     color: white;
 }
-.margem{
+
+.margem {
     margin: 15px;
-}
-.margem2{
-    margin: 15px;
-}
-.Nos{
-    background: rgb(51, 99, 51);
-    background-color: none ;
 }
 
+.margem2 {
+    margin: 15px;
+}
+
+.Nos {
+    background: rgb(51, 99, 51);
+    background-color: none;
+}
+
+/*Botão com efeito para redes sociais*/
+.button {
+    background-color: rgb(51, 99, 51);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(51, 99, 51);
+}
+
+.button1:hover{
+    background-color: rgb(51, 99, 51);
+    color:white;
+}
+/*Fim botão com efeito*/
 .posi{
    text-align: center;
    color: rgb(255, 25, 0);
