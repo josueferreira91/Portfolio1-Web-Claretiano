@@ -7,13 +7,68 @@ Rodapé com informações de contato e links para redes sociais.-->
 <html lang="pt-br">
 
 <head>
+    <style>
+
+
+.posi{
+   text-align: center;
+   display: block;
+}
+
+        table, td, th {
+            border-bottom: 1px solid #ddd;
+            background-color: #ad0023a5;
+}   
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+
+th{
+  background-color: #ad0023a5;
+  color: white;
+}
+
+td{
+  background-color: #ad0023a5;
+  color: white;
+}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
     <title>Evinho</title>
     <img src="img/Logo.png" alt="Logo Evinho">
 </head>
 
-<body>
+<body class="bg"> 
+
+    <header>
+        
+        <nav class="nav-bar">
+            
+            <div class="menu-logo">
+                <img class="Imagem-logo" src="img/Logo-transparente.png"  alt="logo-transp">
+            </div>
+
+            <div class="nav-list">
+                <ul> <!-- uma lista não ordenada-->
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#Sobre-nos" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="produtos.html" class="nav-link">produtos</a></li>
+                    <li class="nav-item"><a href="detalhes_produto.html" class="nav-link">detalhes</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </nav>
+    </header>
 
     <head>
         <form action="#">
@@ -30,8 +85,9 @@ Rodapé com informações de contato e links para redes sociais.-->
     </head>
     <main>
 
+
         <head>
-            <h1>Tabela de vinhos disponíveis</h1>
+               <h1 class=>Tabela de vinhos disponíveis</h1>
         </head>
         <table>
             <tr>
@@ -42,13 +98,17 @@ Rodapé com informações de contato e links para redes sociais.-->
                 <th>Preço</th>
                 <th></th>
             </tr>
-            <tr>
-                <th><img src="img/Vinho 1.png" alt="Vinho 1"></th>
-                <th>KOHLBERG</th>
-                <th>ICONO</th>
-                <th>TEMPRANILHO</th>
-                <th>R$ 550,00</th>
-                <th> <a href="default.asp">Comprar</a> </th>
+            <tr class="posi">
+                <h2 class="posi"><img src="img/Vinho 1.png" alt="Vinho 1" width="75px"></h2>
+                <h2 class="posi">VINICOLA</h2>
+                <h4 class="posi2">KOHLBERG</h4>
+                <h2 class="posi">PRODUTO</h2>
+                <h4 class="posi2">ICONO</h4>
+                <h2 class="posi">UVA</h2>
+                <h4 class="posi2">TEMPRANILHO</h4>
+                <h2 class="posi">PREÇO</h2>
+                <h4 class="posi2">R$ 550,00</h4>
+                <h2 class="posi"> <a href="default.asp">Comprar</a> </h2>
             </tr>
             <tr>
                 <th><img src="img/Vinho 2.png" alt="Vinho 2"></th>
