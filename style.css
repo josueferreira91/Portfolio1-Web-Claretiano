@@ -1,0 +1,493 @@
+/*INICIO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body,html{
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ababab;
+    box-shadow: 0px 3px 10px #464646;
+    z-index: 1000;
+}
+/*FIM INICIO*/
+/*BACKGROUND*/
+.bg{
+    background-image: url(../img/Logo\ novo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+    z-index: -1; 
+}
+/*FIM BACKGROUND*/
+/*CONTEUDO INICIA EM BAIXO*/
+.content{
+    padding-top: 100vh;
+}
+/*FIM CONTEUDO INICIA EM BAIXO*/
+/*MENU DE PESQUISA*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 6rem;
+}
+
+.menu-logo{
+    
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo h1{
+    color: #fff;
+    
+}
+
+.nav-list{
+    
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 15px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;  
+}
+
+.login-button button{
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.Imagem-logo{
+    display: flex;
+    position: absolute;
+    height: 90px;
+    align-items: center;
+}
+/*FIM MENU DE PESQUISA*/
+/*TITULO*/
+h1{
+    display: 	flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: #b71a37;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/*FIM TITULO*/
+/*PARAGRAFO*/
+p{
+    font-size: 16px;
+    margin: 30px 8%;
+    color: rgb(60,60,60);
+}
+/*FIM PARAGRAFO*/
+/*IMAGEM VINHO VERMELHO*/
+.imagem-com-preco{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+/*FIM IMAGEM VINHO VERMELHO*/
+.preco{
+    overflow: hidden;
+    text-decoration: underline;
+    font-size: 30px;
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    left: 64%;
+    color: #d4b98b;
+    padding: 5px;
+}
+/*FIM PREÇO VINHO VERMELHO*/
+/*BANNER DE PROMOÇÃO*/
+
+.banner-promocional{
+    overflow: hidden;
+    width: 1367px;
+}
+.banner-promocional:hover{
+    overflow: hidden;
+    width: 1350px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.img-propaganda:hover{
+    overflow: hidden;
+    width: 1350px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px black;
+}
+/*FIM BANNER DE PROMOÇÃO*/
+/*CENTRALIZAR DESDE O INICIO*/
+#inicio{
+    display: flex;
+    justify-content: center;
+}
+/*FIM CENTRALIZAR DESDE O INICIO*/
+/*CAIXA DOS BANNERS*/
+.caixa{
+    color: white;
+    justify-content: center;   
+}
+/*FIM CAIXA DOS BANNERS*/
+
+/*PREÇO*/
+h2{
+    color: white;
+}
+/*FIM PREÇO*/
+
+/*FUNDO DO BANNER DE PROMOÇÕES*/
+.fundo{
+    background: #3a010b;
+}
+/*FIM FUNDO DO BANNER DE PROMOÇÕES*/
+
+/*IMAGENS DOS VINHOS*/
+.vinho1{
+    display: flex;
+    justify-content: center;
+    height: 261px;    /*Largura*/
+    max-width: 77px; /*tamanho maximo dela*/
+    min-width: 32px;
+}
+.vinho2{
+    
+    justify-content: center;
+    height: 261px;    /*Largura*/
+    max-width: 77px; /*tamanho maximo dela*/
+    min-width: 32px;
+}
+.vinho3{
+    
+    height: 261px;    /*Largura*/
+    max-width: 77px; /*tamanho maximo dela*/
+    min-width: 32px;
+}
+/*FIM IMAGENS DOS VINHOS*/
+
+/*CAIXA ATIVADA DOS VINHOS*/
+.caixa:hover{
+    color: #ffffff;
+    border: 1px solid white;
+    box-shadow: 10px 10px 10px black;
+}
+/*FIM CAIXA ATIVADA DOS VINHOS*/
+
+/*CENTRALIZANDO PARAGRAFO*/
+p{
+    color: white;
+    justify-content: center;
+}
+/*CENTRALIZANDO PARAGRAFO*/
+
+/*PRECO*/
+h2{
+    justify-content: center;
+}
+/*FIM PRECO*/
+
+/*BOTÃO COMPRAR*/
+.comprar-button{
+    width: 100px;
+    background-color: #b52f28;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+/*FIM BOTÃO COMPRAR*/
+
+/*PRODUTO EM DESTAQUE*/
+#destaque{
+    background: rgb(90, 97, 80);
+    color: white;
+}
+/*FIM PRODUTO EM DESTAQUE*/
+
+/*IMAGEM EM DESTAQUE*/
+.img-propaganda{
+    display: flex;
+    position: relative;
+}
+/*FIM IMAGEM EM DESTAQUE*/
+
+/*TEXTO EM CIMA DA IMG EM DESTAQUE*/
+dl{
+    font-size: 30px;
+    width: 400px;
+    position: absolute;
+    bottom: -1600px;
+    left: 20%;
+    color: rgb(249, 255, 248);
+    padding: 5px;
+}
+/*FIM TEXTO EM CIMA DA IMG EM DESTAQUE*/
+
+/*FUNDO SOBRE*/
+.fundo-sobre{
+    background-color: rgb(40, 19, 1);
+}
+/*FIM FUNDO SOBRE*/
+
+/*SOBRE*/
+.Empresa{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.Contato{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.margem{
+    margin: 15px;
+}
+.margem2{
+    margin: 15px;
+}
+.Nos{
+    background: rgb(51, 99, 51);
+    background-color: none ;
+}
+/*FIM SOBRE*/
+
+/*Botão com efeito para redes sociais*/
+.button {
+    background-color: rgb(51, 99, 51);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(51, 99, 51);
+}
+
+.button1:hover{
+    background-color: rgb(51, 99, 51);
+    color:white;
+}
+/*Fim botão com efeito*/
+.posi{
+   text-align: center;
+   color: rgb(255, 25, 0);
+}
+
+.posi2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+ }
+
+
+/*CONTATOS*/
+/*FORMULARIO*/
+.content-2{
+    padding-top: 30vh;
+}
+
+.Menu-selecionado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #b9beb9;
+    opacity: 0.90;
+    width: 800px;
+}
+
+
+.Menu-centralizado{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-contato{
+    color: rgb(0, 0, 0);
+    font-size: 2.5;
+    background: none;
+    margin: 2rem;
+}
+form{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    opacity: none;
+}
+
+form label{
+    
+    color: black;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 15px;
+}
+
+form textarea{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 15px;
+}
+
+form button{
+    margin-left: 40px;
+    margin-right: 0px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: white;
+    color: #101026;
+    border-radius: 15px;
+}
+
+/*FIM FORMULARIO*/
+
+/*MAPA*/
+.Mapa{
+    display: flex;
+    justify-content: center;
+    width: 799px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: absolute;
+    bottom: -700px;
+    left: 29%;
+    max-width: 799px;
+    min-width: 300px;
+}
+.qradado{
+    margin: 1000px;
+}
+.contatos{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    
+    color: white;
+
+  
+
+}
+.telefones-contatos{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    bottom: -110%;
+    left: 50%;
+}
+
+.plano-de-fundo{
+    width: 100%;
+    background-color: rgb(197, 22, 22);
+}
+
+
+    .nao-se-mano{
+        background-color: rgb(40, 19, 1);
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+    }
+    .titulo-nao-se{
+      
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: rgb(51, 99, 51);
+        height: 40px;
+        color: rgb(255, 255, 255);
+        
+    }
+    p /*não apague este P*/
+
+    .segundo-contato{
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+    }
+    
