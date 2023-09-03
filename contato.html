@@ -32,9 +32,9 @@ Rodapé com informações de contato e links para redes sociais.
             <div class="nav-list">
                 <ul> <!-- uma lista não ordenada-->
                     <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#Sobre-nos" class="nav-link">Sobre</a></li>
-                    <li class="nav-item"><a href="produtos.html" class="nav-link">produtos</a></li>
-                    <li class="nav-item"><a href="detalhes_produto.html" class="nav-link">detalhes</a></li>
+                    <li class="nav-item"><a href="#localizacao" class="nav-link">Localização</a></li>
+                    <li class="nav-item"><a href="produtos.html" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="detalhes_produto.html" class="nav-link">Detalhes</a></li>
                     <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
                 </ul>
             </div>
@@ -44,9 +44,13 @@ Rodapé com informações de contato e links para redes sociais.
             </div>
         </nav>
     </header>
-<div class="content">
-    <head>
-        <form action="#">
+
+<div class="content-2">
+    
+    <section class="Menu-centralizado">
+        <section class="Menu-selecionado">
+    
+            <H1 class="titulo-contato">Contato</H1>
             <a href="index.html"><label for="MENU">MENU</label></a>
             <select id="MENU">
                 <a href="produtos.html">
@@ -56,38 +60,70 @@ Rodapé com informações de contato e links para redes sociais.
                     <option value="Contato">Contato</option>
                 </a>
             </select>
-        </form>
-    </head>
-    <main>
-        <form action="/action_page_binary.asp" method="post">
-            <label for="fname">Nome:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email"><br><br>
-            <label for="msg">Mensagem:</label>
-            <input type="text" name="msg" id="msg"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-        <iframe
+        
+    
+            <main>
+                <section class="formulario">
+                    <form  action="/action_page_binary.asp" method="post">
+                        <label>Nome:</label>
+                        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" id="fname" ><br></br>
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" placeholder="Digite seu email" autocomplete="off" id="email" ><br></br>
+                        <label for="msg">Mensagem:</label>
+                        <textarea name="message" cols="30" placeholder="Digite sua mensagem"  type="text" id="msg"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+
+        </section>
+
+        </section>
+    <div class="qradado">
+        <iframe class="Mapa"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2927.7779235128005!2d-47.578298712355185!3d-22.40007050244749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1692229895425!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
-        <h2>Endereço</h2>
-        <p>Rua das uvas, nº100</p>
-        <p>Bairro das árvores</p>
-        <p>Rio Claro - SP</p>
-        <p>CEP: 13000-000</p>
-    </main>
-    <footer>
-        <h2>Contato</h2>
-        <p>Telefone/Whatsapp:</p>
-        <p>(19)99999-9999</p>
-        <h2>Midias sociais</h2>
-        <a href="http://www.instagram.com.br">Instagram</a>
-        <a href="https://pt-br.facebook.com/">Facebook</a>
-    </footer>
+    </div>
+    
+        </section>
+        
+            </main>
+            
+    </sectio>
+    
+    
+    </section>
+    
+    
+</div>
+
+<h2 class="titulo-nao-se" id="localizacao">Localização</h2>
+<div class="nao-se-mano">
+    <div class="segundo-contato">
+        
+    <div class="segundo-contato">
+        
+    <h2>Endereço</h2>
+    <p>Rua das uvas, nº100</p>
+    <p>Bairro das árvores</p>
+    <p>Rio Claro - SP</p>
+    <p>CEP: 13000-000</p>
+
+<footer>
+    <h2>Contato</h2>
+    <p>Telefone/Whatsapp:</p>
+    <p>(19)99999-9999</p>
+    <h2>Midias sociais</h2>
+    <a href="http://www.instagram.com.br">Instagram</a>
+    <a href="https://pt-br.facebook.com/">Facebook</a>
+</footer>
+</div>
 </div>
 </body>
+
+
+
+
 
 </html>
