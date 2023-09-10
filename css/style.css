@@ -565,18 +565,17 @@ p
     margin: 0.1%;
     border-color: #FFF;
     border-style: solid;
-    background-color: #FFF;
-    border-width: 1em;
+    border-width: 0%;
     float: left;
     overflow: hidden;
     -webkit-box-shadow: 5px 5px 5px #777;
     box-shadow: 5px 5px 5px #777;   
 }
 
-.grow img {
+.photo2{
     width: 100%;
     height: auto;
-    opacity: 0.7;
+    opacity: 1;
     vertical-align: bottom;
     -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
@@ -584,7 +583,7 @@ p
                 transition: all 0.5s ease-in-out;  
 }
 
-img:hover {
+.photo2:hover {
     transform: scale(1.2);
     opacity: 1;
 }
