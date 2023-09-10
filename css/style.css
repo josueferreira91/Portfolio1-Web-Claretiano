@@ -479,6 +479,8 @@ form button:hover {
     position: absolute;
     bottom: -70%;
     left: 25%;
+    max-width: 799px;
+    min-width: 300px;
 }
 
 .qradado {
@@ -585,7 +587,7 @@ p
 }
 
 .photo2:hover {
-    transform: scale(1.2);
+    transform: scale(1.02);
     opacity: 1;
 }
 
