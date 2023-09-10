@@ -479,8 +479,6 @@ form button:hover {
     position: absolute;
     bottom: -70%;
     left: 25%;
-    max-width: 799px;
-    min-width: 300px;
 }
 
 .qradado {
