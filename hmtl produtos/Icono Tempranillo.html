@@ -1,14 +1,62 @@
+<!--
+    Página de detalhes do produto (detalhes_produto.html) - expansão com CSS:
+Cabeçalho com o logotipo da empresa e menu de navegação.
+Imagem em destaque do produto com descrição detalhada.
+Informações sobre preço, disponibilidade, avaliações dos clientes, entre outros.
+Rodapé com informações de contato e links para redes sociais.
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icono Tempranillo</title>
-    </head>
-	<body>
-    <section class="Icono Tempranillo">
-	<h1>Icono Tempranillo</h1>
-        <h3>Descrição</h3>
+    <!--link css-->
+    <link rel="icon" href="../img/icone_evinho.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Evinho</title>
+
+
+</head>
+<section id="inicio">
+
+    <body class="bg">
+
+
+
+        <header>
+
+            <nav class="nav-bar">
+
+                <div class="menu-logo">
+                    <img class="Imagem-logo" src="../img/Logo-transparente.png" alt="logo-transp">
+                </div>
+
+                <div class="nav-list">
+                    <ul> <!-- uma lista não ordenada-->
+                        <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="produtos.html" class="nav-link">produtos</a></li>
+                        <li class="nav-item"><a href="detalhes_produto.html" class="nav-link">detalhes</a></li>
+                        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content-2">
+
+            <body>
+                <main class="apresentacao">
+                    <div class="apresentacao__descricao">
+						<h1>Icono Tempranillo</h1>
+        <h2>Descrição</h2>
         <p>Vinho de cor profunda, denota nuances púrpuras com auréola de tijolo macio.
 		No nariz aprecia-se a expressão dos grandes Tempranillos de Rioja, encontramos notas de fundo de cereja,
 		frutos pretos e uma componente de alcaçuz, com um carácter achocolatado acompanhado de suaves notas florais de violeta.
@@ -28,7 +76,24 @@
 		<p>ENÓLOGOS	ERICH KOHLBERG G, HERBERT KOHLBERG K.</p>
 		<p>IDADE POTENCIAL	ENTRE 10 A 15 ANOS</p>
 		<p>TEMPERATURA DE SERVIR RECOMENDADA	15 - 17 anos</p>
-		            
-    </section>
-    </body>
+                        <h2><a href="contato.html"><button class="button button1">COMPRAR</button></a></h2>
+                    </div>
+                    <img class="photo4" src="../Img/malbec-icono.png" alt="Vinho1">
+                </main>
+            </body>
+            <section class="fundo-sobre">
+                <p></p>
+                <section class="Contato">
+                    <footer>
+                        <h2>Contato</h2>
+                        <p class="margem">Telefone/Whatsapp:</p>
+                        <p class="margem2">(19)99999-9999</p>
+                        <h2>Midias sociais</h2>
+                        <a href="http://www.instagram.com.br"><button class="button button1">Instagram</button></a>
+                        <a href="https://pt-br.facebook.com/"><button class="button button1">Facebook</button></a>
+                    </footer>
+                </section>
+        </div>
+</section>
+
 </html>

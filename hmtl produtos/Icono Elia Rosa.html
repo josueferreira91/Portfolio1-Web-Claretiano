@@ -1,36 +1,101 @@
+<!--
+    Página de detalhes do produto (detalhes_produto.html) - expansão com CSS:
+Cabeçalho com o logotipo da empresa e menu de navegação.
+Imagem em destaque do produto com descrição detalhada.
+Informações sobre preço, disponibilidade, avaliações dos clientes, entre outros.
+Rodapé com informações de contato e links para redes sociais.
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icono Elia Rosa</title>
-    </head>
-	<body>
-    <section class="Icono Elia Rosa">
-	<h1>Icono Elia Rosa</h1>
-        <h3>Descrição</h3>
-        <p>Cor vermelha intensa, com tons violáceos e bordas violáceas.
-		O nariz se expressa com um intenso aroma floral, pétalas de rosa,
-		perfumes de frutas negras, predominantemente cerejas, ameixas e com notas suaves de cappuccino,
-		carvalho, baunilha e caixa de charutos.
-		Na boca é grandioso e de notável elegância, muito expressivo.
-		Predomina uma variedade harmoniosa de notas subtis de frutos pretos, 
-		onde se destacam a amora, o mirtilo e a cereja.
-		Um vinho muito suculento envolto numa grande textura aveludada onde se integra extremamente bem
-		e com uma suavidade marcada num final nostálgico que esperamos que nunca acabe.</p>
-		
-		
-		
-		<p>VINHAS	VINHEDO HISTÓRICO DA HACIENDA DON JULIO </p>
-		<p>ALTITUDE	1950m</p>
-		<p>ANTIGO DAS VINHAS	52 ANOS</p>
-		<p>MONTAGEM DE 5 VARIEDADES: CABERNET SAUVIGNON, MALBEC, SYRAH, TEMPRANILLO E MERLOT</p>
-		<p>VITICULTOR	HELMUT KOHLBERG</p>
-		<p>PRODUÇÃO DE GARRAFA	3600</p>
-		<p>ENÓLOGOS	ERICH KOHLBERG G, HERBERT KOHLBERG K.</p>
-		<p>IDADE POTENCIAL	ENTRE 10 ANOS</p>
-		<p>TEMPERATURA DE SERVIR RECOMENDADA	15 a 17 </p>
-		            
-    </section>
-    </body>
+    <!--link css-->
+    <link rel="icon" href="../img/icone evinho.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Evinho</title>
+
+
+</head>
+<section id="inicio">
+
+    <body class="bg">
+
+
+
+        <header>
+
+            <nav class="nav-bar">
+
+                <div class="menu-logo">
+                    <img class="Imagem-logo" src="../img/Logo-transparente.png" alt="logo-transp">
+                </div>
+
+                <div class="nav-list">
+                    <ul> <!-- uma lista não ordenada-->
+                        <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="produtos.html" class="nav-link">produtos</a></li>
+                        <li class="nav-item"><a href="detalhes_produto.html" class="nav-link">detalhes</a></li>
+                        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content-2">
+
+            <body>
+                <main class="apresentacao">
+                    <div class="apresentacao__descricao">
+						<h1>Icono Elia Rosa</h1>
+						<h2>Descrição</h2>
+						<p>Cor vermelha intensa, com tons violáceos e bordas violáceas.
+						O nariz se expressa com um intenso aroma floral, pétalas de rosa,
+						perfumes de frutas negras, predominantemente cerejas, ameixas e com notas suaves de cappuccino,
+						carvalho, baunilha e caixa de charutos.
+						Na boca é grandioso e de notável elegância, muito expressivo.
+						Predomina uma variedade harmoniosa de notas subtis de frutos pretos, 
+						onde se destacam a amora, o mirtilo e a cereja.
+						Um vinho muito suculento envolto numa grande textura aveludada onde se integra extremamente bem
+						e com uma suavidade marcada num final nostálgico que esperamos que nunca acabe.</p>
+						
+						
+						
+						<p>VINHAS	VINHEDO HISTÓRICO DA HACIENDA DON JULIO </p>
+						<p>ALTITUDE	1950m</p>
+						<p>ANTIGO DAS VINHAS	52 ANOS</p>
+						<p>MONTAGEM DE 5 VARIEDADES: CABERNET SAUVIGNON, MALBEC, SYRAH, TEMPRANILLO E MERLOT</p>
+						<p>VITICULTOR	HELMUT KOHLBERG</p>
+						<p>PRODUÇÃO DE GARRAFA	3600</p>
+						<p>ENÓLOGOS	ERICH KOHLBERG G, HERBERT KOHLBERG K.</p>
+						<p>IDADE POTENCIAL	ENTRE 10 ANOS</p>
+						<p>TEMPERATURA DE SERVIR RECOMENDADA	15 a 17 </p>
+                        <h2><a href="contato.html"><button class="button button1">COMPRAR</button></a></h2>
+                    </div>
+                    <img class="photo4" src="../img/cabernet-sauvignon-icono.png" alt="Vinho1">
+                </main>
+            </body>
+            <section class="fundo-sobre">
+                <p></p>
+                <section class="Contato">
+                    <footer>
+                        <h2>Contato</h2>
+                        <p class="margem">Telefone/Whatsapp:</p>
+                        <p class="margem2">(19)99999-9999</p>
+                        <h2>Midias sociais</h2>
+                        <a href="http://www.instagram.com.br"><button class="button button1">Instagram</button></a>
+                        <a href="https://pt-br.facebook.com/"><button class="button button1">Facebook</button></a>
+                    </footer>
+                </section>
+        </div>
+</section>
+
 </html>
