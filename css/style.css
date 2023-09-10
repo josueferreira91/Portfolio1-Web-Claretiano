@@ -490,4 +490,24 @@ form button:hover{
         justify-content: center;
         color: rgb(255, 255, 255);
     }
+
+    /* criacao do flexbox para a tela de produtos */
+    .produtos{
+        margin: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+    }
+
+    .produtos__produto{
+        display: flex;
+        flex-direction: column;
+        background-color: #3a010b;
+        align-items: center;
+        border-radius: 16px;
+        text-decoration: none;
+    }
+
+    /* fim flexbox tela de produtos */
     
