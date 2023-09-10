@@ -587,3 +587,10 @@ p
     transform: scale(1.2);
     opacity: 1;
 }
+
+.photo3{
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 60%;
+}
