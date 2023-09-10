@@ -612,6 +612,9 @@ p
 .apresentacao__descricao{
     display: flex;
     flex-direction: column;
+    align-items:center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .photo4{
