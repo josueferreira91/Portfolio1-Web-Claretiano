@@ -624,3 +624,7 @@ p
     width: auto;
     box-sizing: content-box;
 }
+
+.estrelas{
+    height: 70px;
+}
