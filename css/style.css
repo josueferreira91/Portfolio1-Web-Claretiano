@@ -24,7 +24,7 @@ header {
 /*FIM INICIO*/
 /*BACKGROUND*/
 .bg {
-    background-image: url(../img/Logo\ novo.png);
+    background-image: url(/Img/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
