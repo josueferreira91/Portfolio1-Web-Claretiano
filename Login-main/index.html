@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icone_evinho.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-login.css">
+    <title>Tela de Login</title>
+</head>
+<body class="bg">
+
+    <header>
+
+        <nav class="nav-bar">
+
+            <div class="menu-logo">
+                <img class="Imagem-logo" src="../Img/Logo-transparente.png" alt="logo-transp">
+            </div>
+
+            <div class="nav-list">
+                <ul> <!-- uma lista não ordenada-->
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#Sobre-nos" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="../produtos.html" class="nav-link">produtos</a></li>
+                    <li class="nav-item"><a href="../Carrinho de compras/index.html" class="nav-link">Carrinho</a></li>
+                    <li class="nav-item"><a href="../contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </nav>
+    </header>
+
+
+    <form class="login" action="processa_cadastro" method="post">
+        <h2>Login</h2>
+        <div class="box-user">
+            <input type="text" name="" required>
+            <label>Usuário</label>
+        </div>
+        <div class="box-user">
+            <input type="password" name="" required>
+            <label>Senha</label>
+        </div>
+        <div>
+            <a href="#" class="forget"> Esqueceu a senha?</a>
+        </div>
+        <a href="#" class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Entrar
+        </a>
+    </form>
+</body>
+</html>
